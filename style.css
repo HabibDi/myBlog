@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
 /* * {
@@ -11,43 +11,118 @@ body {
     font-family: 'Roboto', sans-serif;
     color: white;
     margin: 0;
-
+    padding: 0;
+    justify-content: center;
+    width: 100%;
 }
 
 #header {
     display: flex;
+    justify-items: auto;
+    align-items: center;
     background-color: rgb(73, 71, 71);
     flex-direction: row;
+    height: 10vh;
 
 }
 
-#nav {
-    display: flex;
-    flex-direction: row;
+#logo_small {
+    height: 10vh;
+    width: auto;
+    margin: 0;
+}
+
+#navbar {
+
     align-items: center;
     justify-content: center;
     margin-left: 10vw;
+
 }
 
+
 .nav_item {
-    margin: 5;
+    margin: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+.nav_item :hover {
+    background-color: greenyellow;
 }
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
 }
 
+#logo_big {
+    height: 40vh;
+    width: 40vh
+}
 
-#logo_small {
-    height: 13vh;
-    width: 8vw;
+article {
+    display: flex;
+    border: 10px;
+    /* border-color: white; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+
+
+}
+
+#first_article {
+    width: 30vw;
+    font-size: 20px;
+}
+
+#first_article h1 {
+    font-size: 25px;
 }
 
 
-#logo_big {
-    height: 13vh;
-    width: 8vh
+#discover_button {
+    padding: 5 10;
+    width: fit-content;
+    border-radius: 28px;
+}
+
+#second_article {
+    background-image: url(./assets\background-blue.png);
+    background-repeat: repeat;
+}
+
+#terminal_window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 50vw;
+    background-color: rgb(65, 62, 62);
+
+}
+
+
+
+#terminal_content {
+    height: 80%;
+    background-color: black;
+    height: fit-content;
+}
+
+#third_article {
+    background-color: white;
+}
+
+#fourth_article {
+    background-image: url(./assets/background-blue.png);
+    background-repeat: repeat;
 }
