@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
-/* * {
-    display: flex;
-    flex-direction: column;
-} */
+/* Page Accueil */
 
 body {
     background-color: black;
@@ -181,6 +178,46 @@ article {
 
 }
 
+.arrows {
+    font: 5em bolder;
+    margin: 5px
+}
+
 .carrousel_items img {
     max-width: 100%;
+}
+
+/* Page Cours */
+
+#courses_top {
+    display: flex;
+    flex-direction: row;
+    background-image: url(./assets/background-green.jpeg);
+    background-repeat: repeat;
+}
+
+#courses_catalog {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+    color: black
+}
+
+#cards_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 20vw;
+    margin: 10px;
+    border: 1px solid black;
+
 }

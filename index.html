@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My blog</title>
+    <title>Accueil | My blog</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/9d1e38903f.js" crossorigin="anonymous"></script>
 
@@ -24,8 +24,8 @@
                 <li></li>
             </ul> -->
 
-            <a href="#" class="nav_item" id="accueil_button">Acceuil</a>
-            <a href="#" class="nav_item" id="cours_button">Cours</a>
+            <a href="./index.html" class="nav_item" id="accueil_button">Accueil</a>
+            <a href="./courses.html" class="nav_item" id="cours_button">Cours</a>
             <a href="#" class="nav_item" id="blog_button">Blog</a>
             <a href="#" class="nav_item" id="newsletter_button">Newsletter</a>
 
@@ -38,7 +38,7 @@
 
             <img src="./assets/logo.png" id="logo_big" alt="">
             <h1>La plateforme d'apprentissage du code.</h1>
-            <span>Apprenez la programmation et le métier de dev grâce à nos cours et nos ressources</span>
+            <p>Apprenez la programmation et le métier de dev grâce à nos cours et nos ressources</p>
 
             <button id="discover_button"> Découvrez nos cours 🎒</button>
 
@@ -49,7 +49,7 @@
 
             <h1>Apprendre, découvrir, expérimenter.</h1>
             <div id="terminal_window">
-                <span id="terminal_title">Terminal</span>
+                <p id="terminal_title">Terminal</p>
                 <div id="terminal_content">
 
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dolore facere
@@ -69,36 +69,36 @@
 
         <article id="third_article">
             <H1>Les Cours</H1>
-            <span>Un abonnement unique</span>
+            <p>Un abonnement unique</p>
 
             <div id="courses_container">
                 <div class="courses"> <img src="" alt="">
-                    <span>
-                        <h4>Maitrisez SQL et MySQL</h4>
-                        Les bases de données relationnelles sont incontournables pour
-                        les devs web !
-                    </span>
+                    <p>
+                    <h4>Maitrisez SQL et MySQL</h4>
+                    Les bases de données relationnelles sont incontournables pour
+                    les devs web !
+                    </p>
                 </div>
                 <div class="courses"><img src="" alt="">
-                    <span>
-                        <h4>Décrochez votre premier job de dev</h4>
-                        Si vous recherchez un emploi mais que vous
-                        n'arrivez pas à vous vendre
-                    </span>
+                    <p>
+                    <h4>Décrochez votre premier job de dev</h4>
+                    Si vous recherchez un emploi mais que vous
+                    n'arrivez pas à vous vendre
+                    </p>
                 </div>
                 <div class="courses"><img src="" alt="">
-                    <span>
-                        <h4>Apprenez Git et GitHub</h4>
-                        L'outil indispensable pour gérer son code dans le milieu
-                        professionnel
-                    </span>
+                    <p>
+                    <h4>Apprenez Git et GitHub</h4>
+                    L'outil indispensable pour gérer son code dans le milieu
+                    professionnel
+                    </p>
                 </div>
                 <div class="courses"><img src="" alt="">
-                    <span>
-                        <h4>Lancez-vous en tant que dev freelance</h4>
-                        Envie de plus de liberté dans votre
-                        métier ?
-                    </span>
+                    <p>
+                    <h4>Lancez-vous en tant que dev freelance</h4>
+                    Envie de plus de liberté dans votre
+                    métier ?
+                    </p>
                 </div>
             </div>
 
@@ -123,10 +123,13 @@
             <H1>Le Blog</H1>
 
             <div id="carrousel">
-                <div class="carrousel_items"> <img src="./assets/rest.png" alt=""> </div>
-                <div class="carrousel_items"><img src="./assets/pipeline.png" alt=""></div>
-                <div class="carrousel_items"><img src="./assets/index.png" alt=""></div>
-            </div>
+                <div class="arrows" id="left_arrow">
+                    < </div>
+                        <div class="carrousel_items" hidden> <img src="./assets/rest.png" alt=""> </div>
+                        <div class="carrousel_items"><img src="./assets/pipeline.png" alt=""></div>
+                        <div class="carrousel_items"><img src="./assets/index.png" alt=""></div>
+                        <div class="arrows" id="rigth_arrow"> > </div>
+                </div>
 
         </article>
 
