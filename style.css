@@ -180,7 +180,7 @@ article {
 
 .arrows {
     font: 5em bolder;
-    margin: 5px
+    margin: 50px
 }
 
 .carrousel_items img {
@@ -219,5 +219,10 @@ article {
     width: 20vw;
     margin: 10px;
     border: 1px solid black;
+
+}
+
+.selected_cards {
+    border: 5px solid red;
 
 }
